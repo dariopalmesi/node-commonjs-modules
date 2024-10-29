@@ -1,7 +1,7 @@
 const name = require('./name.js')
 
-console.log(name);
+console.log(name('dario','palmesi'));
 
 const hobby = require('./hobbies.js')
 
-console.log(hobby);
+console.log(hobby('calcio','game','musica'));
