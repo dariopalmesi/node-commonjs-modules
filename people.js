@@ -1,16 +1,18 @@
 const name = require('./name.js')
 
-console.log(name('dario', 'palmesi'));
+console.log(name);
 
 const hobby = require('./hobbies.js');
+const myName = require('./name.js');
+const myHobbies = require('./hobbies.js');
 
 
-console.log(hobby('calcio', 'game', 'musica'));
+console.log(hobby);
 
 function myFunction() {
     return {
-        name,
-        hobby
+        myName,
+        myHobbies
     }
 }
 

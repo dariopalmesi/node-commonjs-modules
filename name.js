@@ -1,7 +1,9 @@
 function myName(firstName, lastName) {
-    const name = firstName
-    const secondName = lastName
-    return `${name} ${secondName}`
+    const completeName = {
+        firstName,
+        lastName
+    }
+    return completeName
 }
 
 module.exports = myName
