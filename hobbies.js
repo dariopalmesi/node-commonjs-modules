@@ -4,7 +4,7 @@ function myHobbies(hobbyOne, hobbyTwo, hobbyThree) {
         hobbyTwo,
         hobbyThree
     ]
-    return hobbies
+    return {hobbies}
 }
 
 module.exports = myHobbies
