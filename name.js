@@ -1,7 +1,7 @@
 function myName(firstName, lastName) {
     const completeName = {
-        firstName: firstName,
-        lastName: lastName
+        firstName,
+        lastName
     }
     return completeName
 }

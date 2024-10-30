@@ -1,19 +1,24 @@
-const name = require('./name.js')
+ 
 
-console.log(name);
 
-const hobby = require('./hobbies.js');
+
+ 
 const myName = require('./name.js');
 const myHobbies = require('./hobbies.js');
 
 
-console.log(hobby);
+
 
 function myFunction() {
-    return {
-        myName,
-        myHobbies
-    }
+    const name = myName('Dario', 'Palmesi')
+    const hobby = myHobbies('gamer', 'calcio', 'anime')
+    const newUser = {...name, ...hobby}
+    return newUser
 }
 
-console.log(myFunction());
+const user = myFunction()
+
+console.log(user);
+
+
+
